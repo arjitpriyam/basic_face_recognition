@@ -1,11 +1,40 @@
 # Real Time Face Recognition
 
-This is basically facial recognition works. 
+## Installation
 
-![kirill-opencv-gif-400](https://user-images.githubusercontent.com/44390802/48006326-431b9000-e13b-11e8-989c-4ada732156c3.gif)
+### Requirements
 
+  * Python 3.3+ or Python 2.7
+  * macOS or Linux (Windows not officially supported, but might work)
+  * Numpy 
+  * Pillow
+  * os
+
+### Installation Options:
+
+#### Installing on Mac or Linux
+
+First, make sure you have dlib already installed with Python bindings:
+
+  * [How to install dlib from source on macOS or Ubuntu](https://gist.github.com/ageitgey/629d75c1baac34dfa5ca2a1928a7aeaf)
+
+Then, install this module from pypi using `pip3` (or `pip2` for Python 2):
+
+```bash
+pip3 install face_recognition
+```
+
+If you are having trouble with installation, you can also try out this: **Windows Only** 
+1. Microsoft Visual Studio 2015 with C/C++ Compiler installed. (Visual C++ 2015 Build Tools didn't work for me and I got into problems in compiling dlib)
+2. Boost library version 1.63 or newer. Also, you can use precompiled binaries for specific MSVC you have but I don't suggest. (I've included the compiling procedure of Boost in this tutorial)
+3. Of course Python3 (I used Python3.5 x64 but the other versions may work too)
+4. CMake for windows and add it to your system environment variables.
 
 ## Introduction
+
+This is basically how facial recognition works. 
+
+![kirill-opencv-gif-400](https://user-images.githubusercontent.com/44390802/48006326-431b9000-e13b-11e8-989c-4ada732156c3.gif)
 
 To create a complete project on Face Recognition, we must work on 3 very distinct phases:
 
