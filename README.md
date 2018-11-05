@@ -150,3 +150,10 @@ The recognizer.predict (), will take as a parameter a captured portion of the fa
 if the recognizer could predict a face, we put a text over the image with the probable id and how much is the "probability" in % that the match is correct ("probability" = 100 - confidence index). If not, an "unknow" label is put on the face.
 
 ![facerecthumbnail](https://user-images.githubusercontent.com/44390802/48009370-9ee91780-e141-11e8-89da-298055823eec.jpg)
+
+## Thanks
+
+This is my first small project that I made so thought of sharing it here.
+It would be great if you all could contribute so I could learn more. 
+Share your thoughts through your codes and I'll if you have any queries, share it in the **ISSUE** section.
+Thank You All! 
