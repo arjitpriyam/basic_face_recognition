@@ -1,5 +1,9 @@
 # Real Time Face Recognition
 
+## NOTE
+### For using this, clone the repository and simply run the main.py file and have fun.
+### Other 3 files can be used as a reference to understand what the program do and how every steps is executed.
+
 ## Installation
 
 ### Requirements
